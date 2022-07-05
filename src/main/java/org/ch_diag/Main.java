@@ -294,6 +294,11 @@ public class Main {
             else
                 file_name = "report_" + cluster + ".html";
 
+            File output_dir = new File(Paths.get(conf.current_dir, "output").toString());
+            if (!output_dir.exists()){
+                output_dir.mkdir();
+            }
+
             file = new File(Paths.get(conf.current_dir, "output", file_name).toString());
             fop = new FileOutputStream(file);
             if (!file.exists()) {
