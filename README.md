@@ -2,10 +2,6 @@
 ClickHouse diagnostic tool for old versions
 
 
-# ch_diag
-ClickHouse 20.3+ diagnostic tool
-
-
 ```
 # Connect using root CA certificate
 java -jar ch_diag_jdbc_old.jar \
