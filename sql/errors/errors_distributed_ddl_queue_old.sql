@@ -1,0 +1,1 @@
+select 'system.distributed_ddl_queue is supported since 21.2' as Warning
